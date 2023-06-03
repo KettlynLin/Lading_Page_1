@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+body{
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 1200px;
+    /*max-widht== independende das dimensões da tela continuará com o mesmo formato a pagina--serve
+    para definir altura maxima*/
+    margin: 0 auto;
+    /*margin== distânncia das outras coisas*/
+    padding: 10px;
+    /*padding==espaço que ocupa//border==bordar ao redor do padding*/
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    /*inline-block==deixa os itens em linha reta o normal deixa em coluna*/
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color:chartreuse;
+    transition: 0.3s all;
+}
+
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    width: 620px;
+}
+
+.roxo{
+    color:blueviolet;
+}
+
+p{
+    line-height: 20px;
+    /*line-height==separa ou junta as palavras*/
+    max-width: 500px;
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+
+}
+form [type="submit"]{
+    cursor: pointer;
+
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
